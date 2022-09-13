@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+:root{
+  --theme: rgb(101, 119, 179);
+  --bg:rgb(252, 194, 33);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main_div {
+  background-color: var(--bg);
+  min-height: 100vh;
+  width: 100%;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  height: 60px;
+  ;
+  background-color: var(--theme);
+  padding-left: 5%;
+  box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+}
+
+.icon {
+  color: var(--bg);
+  height: 40px !important;
+  width: 40px !important;
+  margin-top: 10px;
+  background-color: transparent;
+}
+
+.header h1 {
+  color: white;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 500;
+  text-transform: capitalize;
+  padding: 10px 10px;
+}
+
+.note_container {
+  width: 100%;
+  padding: 20px 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.note_div {
+  display: flex;
+  justify-content: center;
+  background-color: var(--theme);
+  box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  align-items: center;
+  width: 60vw;
+  padding: 40px;
+}
+
+.note_div form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+  height: 30px;
+  width: 40vw;
+  border: none;
+  border-bottom: 3px solid var(--theme);
+  box-shadow: 5px 5px 10px -5px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  outline: none;
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 500;
+  color: var(--theme);
+}
+
+textarea {
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+  margin: 2px 0 15px 0;
+  width: 100%;
+  border: none;
+  border-bottom: 3px solid var(--theme);
+  box-shadow: 5px 5px 10px -5px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  outline: none;
+  font-size: 20px;
+  text-transform: capitalize;
+  font-weight: 500;
+  color: var(--theme);
+}
+
+.btn {
+  color: White !important;
+  background-color: var(--bg) !important;
+  margin-bottom: 7px !important;
+}
+
+.keeper_container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.keeper_div {
+  display: inline !important;
+  flex-direction: column;
+  background-color: var(--theme);
+  box-shadow: 5px 5px 25px -5px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  align-items: center;
+  width: 15em;
+  height: 16em;
+  margin: 10px 20px;
+}
+
+.heading {
+  display: flex;
+  flex-direction: row;
+}
+
+.heading h1 {
+  min-width: 80%;
+  text-align: center;
+  color: var(--bg);
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 25px;
+  font-weight: 500;
+  padding: 10px 8px;
+  overflow: hidden;
+  text-transform: capitalize;
+  overflow-wrap: normal;
+}
+
+.heading Button {
+  color: var(--bg);
+  margin: 5px 5px;
+  border-radius: 70%;
+  position: relative;
+  right: 20px !important;
+}
+
+.heading Button:hover {
+  color: red;
+}
+
+.keeper_div p {
+  font-weight: 400;
+  font-size: 20px;
+  padding: 2px 15px;
+  text-transform: capitalize;
+  overflow-wrap: break-word;
+}
+
+footer {
+  font-size: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  color: white;
+  text-align: center;
+  background-color: var(--theme);
+  box-shadow: 5px -5px 25px -5px rgba(0, 0, 0, 0.5);
+}
