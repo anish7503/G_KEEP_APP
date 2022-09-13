@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/anish7503/G_KEEP_APP/static/css/main.562b7d68.css",
+    "main.js": "/anish7503/G_KEEP_APP/static/js/main.41a231b9.js",
+    "index.html": "/anish7503/G_KEEP_APP/index.html",
+    "main.562b7d68.css.map": "/anish7503/G_KEEP_APP/static/css/main.562b7d68.css.map",
+    "main.41a231b9.js.map": "/anish7503/G_KEEP_APP/static/js/main.41a231b9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.562b7d68.css",
+    "static/js/main.41a231b9.js"
+  ]
+}
